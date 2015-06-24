@@ -46,54 +46,87 @@ table {
 
 /* main page defaults */
 /* ID styles   */
+
+body 
+{	
+background-image:url('../images/background.png')
+}
+
 #wrapper, #header {
 	width: 900px;
 	margin: 0 auto;
 	background-image:url('../images/background.png');
 }
-#banner, #subbanner {
-	width: 800px;
-	margin: 0 auto;
+#banner {
+	width: 95%;
+	margin: 15px auto;
 	padding: 10px 10px 10px 10px;
-	margin: 20px;
 	background-color:black;
 }
+#banner img {
+	width:100%;
+	height:auto	
+}
+
+#subbanner {
+	width: 95%;
+	margin: 15px auto;
+	padding: 10px 10px 10px 10px;
+	background-color:black;
+}
+#subbanner img {
+	width:100px; height:auto;
+	float: right;
+	vertical-align: top;
+	margin-top: 3;
+}
+
 
 #mainContent, #secContent {
-	width: 800px;
-	margin: 0 auto;
+	float:left;
+	width: 70%;
+	margin: 15px 0 0 12px;
 	padding: 10px 10px 10px 10px;
-	margin: 20px;
 	background-color:black;
+}
+#secContent img{
+	height:100px; width:auto;
+	margin: 3 0 0 10px;
+	float: left;
+	vertical-align: top;
 }
 
 #rightside { 
-	width: 800px;
-	margin: 0 auto;
+	width: 150px;
+	margin: 15px 700px;
 	padding: 10px 10px 10px 10px;
-	margin: 20px;
 	background-color:black;
+	line-height:150%;
 }
+
 #footer	{
-	width: 800px;
-	margin: 0 auto;
-	padding: 10px 10px 10px 10px;
-	margin: 20px;
+	width: 95%;
+	margin: 30px auto;
+	padding: 0px 10px 60px 10px;
 	background-color:black;
 }
+
 #googleSearch {
 	width: 400px;
 	float: left;
 	margin: 0 0 0px 10px;
 	padding: 0 0 50px 0;
 }
+
 #socialMedia {
 	float: right; 
 	margin: 10px 20px 0 0;
 }
+
 #socialMedia img {
 	width:30px; height:30px	
 }
+
 #socialMedia ul li {
 	display:inline;
 }	
@@ -105,10 +138,21 @@ h1 {
 	color:#800000;
 	text-transform: uppercase;	
 }
-h3, p {font-family:Arial, Helvetica, sans-serif;
+h3 {font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:white;
+	text-transform: uppercase;
+	}
+	
+h4 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#800000;
+}
+p {font-family:Arial, Helvetica, sans-serif;
 	color:white;
 	}
-
+	
 /* class styles */	
 .banner {color:white;}
 	
