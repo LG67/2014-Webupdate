@@ -81,6 +81,22 @@ table {
 	margin: 20px;
 	background-color:black;
 }
+#googleSearch {
+	width: 400px;
+	float: left;
+	margin: 0 0 0px 10px;
+	padding: 0 0 50px 0;
+}
+#socialMedia {
+	float: right; 
+	margin: 10px 20px 0 0;
+}
+#socialMedia img {
+	width:30px; height:30px	
+}
+#socialMedia ul li {
+	display:inline;
+}	
 
 /* tag styles */
 h1 {
