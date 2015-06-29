@@ -1,4 +1,4 @@
-﻿/*css reset */
+/*css reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -85,7 +85,7 @@ background-image:url('../images/background.png')
 #mainContent, #secContent {
 	float:left;
 	width: 70%;
-	margin: 15px 0 0 12px;
+	margin: 9px 0 0 12px;
 	padding: 10px 10px 10px 10px;
 	background-color:black;
 }
@@ -98,21 +98,24 @@ background-image:url('../images/background.png')
 
 #rightside { 
 	width: 150px;
-	margin: 15px 700px;
+	margin: 1.5em 690px;
 	padding: 10px 10px 10px 10px;
 	background-color:black;
 	line-height:150%;
 }
 
 #footer	{
+	clear: both;
 	width: 95%;
-	margin: 30px auto;
-	padding: 0px 10px 60px 10px;
+	margin: auto;
+	margin-top: 3em;
+	padding: 0px 10px 66px 10px;
 	background-color:black;
 }
 
 #googleSearch {
 	width: 400px;
+	height: 1000%;
 	float: left;
 	margin: 0 0 0px 10px;
 	padding: 0 0 50px 0;
@@ -120,7 +123,7 @@ background-image:url('../images/background.png')
 
 #socialMedia {
 	float: right; 
-	margin: 10px 20px 0 0;
+	margin: 18px 20px 0 0;
 }
 
 #socialMedia img {
@@ -135,7 +138,10 @@ background-image:url('../images/background.png')
 
 /* fix line height in header tags */
 h1,h2,h3,h4,h5 {
+	font-family:Arial, Helvetica, sans-serif;
 	line-height: 1.3em;
+	color:#FFF;
+	
 }
 
 h1 {
@@ -152,7 +158,7 @@ h3 {font-family:Arial, Helvetica, sans-serif;
 	
 h4 {
 	font-family:Arial, Helvetica, sans-serif;
-	font-size: 10px;
+	font-size: 15px;
 	color:#800000;
 }
 p {font-family:Arial, Helvetica, sans-serif;
