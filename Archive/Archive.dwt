@@ -15,7 +15,7 @@
 
 <body>
 <div id="header">
-	<img src="../images/header.png" id="header">
+	<img src="../images/header.png" alt="HOT Banner">
 </div>		
 
 	
@@ -29,16 +29,13 @@
    	<li><a href='#'><span>COMMUNITY OUTREACH</span></a></li>
    	<li><a href='#'><span>CALENDAR</span></a></li>
    	<li><a href='#'><span>CONTACT US</span></a></li>
-	<ul>
-		<li class='last'><a href='#'><span>Sub Product</span></a></li>
-	</ul>
 </ul>
 </li>
 <li class='active has-sub'><a href='#'><span>SPONSORS</span></a>
 <ul>
   	<li><a href='#'><span>GENERAL MOTORS</span></a></li>
    	<li><a href='#'><span>HURON VALLEY SCHOOLS</span></a></li>
-   	<li class='last'><a href='#'><span>SOLIDWORKS</span></a></li>
+   	<li><a href='#'><span>SOLIDWORKS</span></a></li>
 </ul>
 </li>
 <li class='active has-sub'><a href='#'><span>RESOURCES</span></a>
@@ -56,24 +53,24 @@
 <ul>
    	<li><a href='#'><span>FORMS</span></a></li>
 	<li><a href='#'><span>APPLICATION PROCESS</span></a></li>
-   	<li class='last'><a href='#'><span>GOVERNANCE</span></a></li>
+   	<li class='last' ><a href='#'><span>GOVERNANCE</span></a></li>
 </ul>
 </li>
 <li class='active has-sub'><a href='#'><span>MEDIA</span></a>
 <ul>
    	<li><a href='#'><span>GET CONNECTED</span></a></li>
    	<li><a href='#'><span>PHOTO ALBUM</span></a></li>
-   	<li><a href='#'><span>VIDEO & ANIMATION</span></a></li>
+   	<li><a href='#'><span>VIDEO &amp; ANIMATION</span></a></li>
    	<li><a href='#'><span>IN THE PRESS</span></a></li>
 </ul>
-<li class='active has-sub'><a href='#'><span>ARCHIVE</span></a>
+<li class='active has-sub' style="z-index: 0"><a href='#'><span>ARCHIVE</span></a>
 <ul>
 	<li><a href='#'><span>TEAM HISTORY</span></a></li>
 	<li><a href='#'><span>ENGINEERING DESIGN</span></a></li>
 	<li><a href='#'><span>AWARD SUBMISSIONS</span></a></li>
 </ul>
 </li>
-<li class='last'><a href='#'><span>YEARBOOK</span></a></li>
+<li><a href='#'><span>YEARBOOK</span></a></li>
 </ul>
 </div>
 
@@ -90,17 +87,17 @@
 	<div id="socialMedia">
 	<ul>
 	<li><a href="https://github.com/hot67">
-	<img src="../images/GitHub.png" ></a></li>
+	<img src="../images/GitHub.png" alt="git hub" style="width: 30px; height: 30px" ></a></li>
 	<li>
 	<a href="https://www.facebook.com/pages/FRC-67-Heroes-of-Tomorrow/431126933634849">
-	<img src="../images/facebook.png" ></a></li>
+	<img src="../images/facebook.png" alt="facebook" style="width: 30px; height: 30px" ></a></li>
 	<li>
 	<a href="https://plus.google.com/u/0/107452000678789858518/posts">
-	<img src="../images/g_plus.png" ></a></li>
+	<img src="../images/g_plus.png" alt="googleplus" style="width: 30px; height: 30px" ></a></li>
 	<li><a href="https://twitter.com/FRC67">
-	<img src="../images/twitter.png" ></a></li>
+	<img src="../images/twitter.png" alt="twitter" style="width: 30px; height: 30px" ></a></li>
 	<li><a href="https://www.youtube.com/user/FRCHOTTeam67">
-	<img src="../images/YouTube.jpg" ></a></li>
+	<img src="../images/YouTube.jpg" alt="youTube" style="width: 30px; height: 30px" ></a></li>
 	</ul>
 	</div>
 	</div>
