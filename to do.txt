@@ -3,7 +3,7 @@ Home-Chad
 
 ABOUT
 Team Overview-Brandon
-Community-Riley
+Community-Riley (done)
 Calendar
 Contact Us
 
@@ -13,7 +13,7 @@ RESOURCES
 GM Rules and Safety -LG
 Programming-Paul (Done?)
 Assembly
-Machining
+Machining-Riley
 Electrical
 CAD-Varun
 Communications
@@ -26,7 +26,7 @@ Team Governance -LG (done)
 MEDIA
 Get Connected-Juliana
 Photos (Picasa)
-Video (YouTube)
+Video (YouTube)-Ron
 In the Press
 
 ARCHIVE
