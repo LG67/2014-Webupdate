@@ -1,0 +1,784 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- #BeginTemplate "../css/Template.dwt" -->
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+ 
+    <!-- #BeginEditable "doctitle" -->
+ 
+<title>Engineering Design</title>
+	
+	<!-- #EndEditable -->
+
+<!--	<base target="_blank">    -->
+	<link rel="shortcut icon" sizes="16x16" href="http://www.hotteam67.org/wp-content/uploads/2015/06/favicon.ico" />
+	<link rel="icon" sizes="192x192" href="http://www.hotteam67.org/wp-content/uploads/2015/06/67-block1.png" />
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../About/bootstrap.min.css" rel="stylesheet">
+
+    <link href="../css/collapseSetPt.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../About/html5shiv.min.js"></script>
+      <script src="../About/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  	
+  	<div id="HOT_header" class="text-center">
+     <img alt="HOT Head" src="../images/header.png" width="95%" >
+    </div>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.hotteam67.org">Home</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+ 
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              ABOUT <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='http://www.usfirst.org'><span>FIRST</span></a></li>
+						 <li><a href="http://www.hotteam67.org/community-outreach/"><span>TEAM OVERVIEW</span></a></li>
+						 <li><a href='../About/CommunityOutreach.html'><span>COMMUNITY OUTREACH</span></a></li>
+						 <li><a href='../About/Calendar.html'><span>CALENDAR</span></a></li>
+						 <li><a href='../About/ContactUs.html'><span>CONTACT US</span></a></li>
+              </ul>
+            </li>
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              SPONSORS <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='http://www.gm.com'><span>GENERAL MOTORS</span></a></li>
+						 <li><a href='http://www.hvs.org'><span>HURON VALLEY SCHOOLS</span></a></li>
+						 <li><a href='http://www.solidworks.com'><span>SOLIDWORKS</span></a></li>
+              </ul>
+            </li>
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              RESOURCES <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='#'><span>GM RULES AND SAFETY</span></a></li>
+						 <li><a href='http://www.hotteam67.org/programming'><span>PROGRAMMING</span></a></li>
+						 <li><a href="../About/67Percent.html"><span>ASSEMBLY</span></a></li>
+						 <li><a href='../Resources/machining.html'><span>MACHINING</span></a></li>
+						 <li><a href="../About/67Percent.html"><span>ELECTRICAL</span></a></li>
+						 <li><a href='../Resources/CAD.html'><span>CAD</span></a></li>
+						 <li><a href="../About/67Percent.html"><span>COMMUNICATIONS</span></a></li>
+              </ul>
+            </li>
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              ADMIN <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='../TeamAdmin/forms.html'><span>FORMS</span></a></li>
+						 <li><a href='../TeamAdmin/ApplicationProcess.html'><span>APPLICATION PROCESS</span></a></li>
+						 <li><a href='../TeamAdmin/governance.html'><span>GOVERNANCE</span></a></li>
+              </ul>
+            </li>
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              MEDIA <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href="../About/67Percent.html"><span>GET CONNECTED</span></a></li>
+						 <li><a href='https://plus.google.com/photos/107452000678789858518/albums?banner=pwa'><span>PHOTO ALBUM</span></a></li>
+						 <li><a href='http://www.youtube.com/user/FRCHOTTeam67'><span>VIDEO &amp; ANIMATION</span></a></li>
+						 <li><a href="../About/67Percent.html"><span>IN THE PRESS</span></a></li>
+              </ul>
+            </li>
+
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              ARCHIVE <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='../Archive/TeamHistory.html'><span>TEAM HISTORY</span></a></li>
+						 <li><a href='../Archive/EngineeringDesign.html'><span>ENGINEERING DESIGN</span></a></li>
+						 <li><a href='../Archive/AwardSubmissions.html'><span>AWARD SUBMISSIONS</span></a></li>
+              </ul>
+            </li>
+
+            <li><a href="http://www.hotteam67.org/yearbook-2/">YEARBOOK</a></li>
+
+          </ul>
+
+<!--Media Menu -->
+          <ul class="nav navbar-nav navbar-right">
+					 <li><a href="https://github.com/hot67">
+					 <img src="../images/GitHub.png" ></a> </li>
+					 <li>
+					 <a href="https://www.facebook.com/pages/FRC-67-Heroes-of-Tomorrow/431126933634849">
+					 <img src="../images/facebook.png" ></a> </li>
+					 <li>
+					 <a href="https://plus.google.com/u/0/107452000678789858518/posts">
+					 <img src="../images/g_plus.png" ></a> </li>
+					 <li><a href="https://twitter.com/FRC67">
+					 <img src="../images/twitter.png" ></a> </li>
+					 <li><a href="https://www.youtube.com/user/FRCHOTTeam67">
+					 <img src="../images/YouTube.jpg"></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+      <!-- #BeginEditable "content" -->
+
+<div id="subbanner">
+	<h1>Engineering Design Archive</h1>
+</div>
+<!--2015-->
+	<div id="content">
+		<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=l19Dl8y9ofo">
+				<img alt="2015HOTbot" src="EngineeringDesign/2015HOTBot_sm.JPG" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Click on the Image to See 2015 Video <br>(Carson Semifinals Match 2)</h3></td>
+			</tr>
+		</table>
+		<h1>2015</h1>
+		
+		<a href="http://www.usfirst.org/roboticsprograms/frc/2015-game">
+		<img alt="Recycle Rush Logo" src="EngineeringDesign/2015RecycleRush-thumb.jpg" class="gameLogo"></a>
+		<h2>Game Description: <span class="description"> 
+		<a href="http://www.usfirst.org/sites/default/files/uploadedFiles/About_Us/Media_Center/FRC_Assets/2015_FRC_game_description_1page.pdf">RECYCLE RUSH </a> 
+		is a recycling-themed game played by two Alliances of three robots each. Robots score points by stacking 
+		totes on scoring platforms, capping those stacks with recycling containers, and properly disposing of pool noodles, 
+		representing litter.</span></h2> <br>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPRnRJRHhnTWlZOTQ/view?usp=sharing">2015 HOT Team Tech Notes</a></h2>
+		<h2><a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPNzNFemgwWTVvWG8/view?usp=sharing">2015 CAD Archive</a></h2>
+		<h2>
+		<a href="https://www.youtube.com/watch?v=znDxLy8NV5c">2015 Highlights Video</a></h2> <br>
+	</div>
+
+<!--2014-->
+	<div id="content0">
+			<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=oVRH-Wxt6ek">
+				<img alt="2014HOTbot" src="EngineeringDesign/2014HOTBot.jpg" style="height: 240px" /></a></td>
+			</tr>
+			<tr>
+				<td style="width: 326px"><h3>Video: MSC Match 54</h3></td>
+			</tr>
+		</table>
+		<h1>2014</h1>
+		<h2>Game Description: <a href="http://www.usfirst.org/sites/default/files/uploadedFiles/About_Us/Media_Center/FRC_Assets/2014_FRC_Game_1page.pdf">
+		AERIAL ASSIST</a><span class="description"><a href="http://www.usfirst.org/roboticsprograms/frc/2014-game" ><img alt="Aerial Assist Logo" src="EngineeringDesign/AerialAssist_RGB-THUMB.png" class="gameLogo" style="height: 100px"></a>
+		is played by two competing Alliances of three robots 
+		each on a flat 25’ x 54’ foot field, straddled by a truss suspended just 
+		over five feet above the floor. The objective is to score as many balls 
+		in goals as possible during a two-minute and 30-second match. The 
+		more Alliances score their ball in their goals, and the more they work 
+		together to do it, the more points their Alliance receives. </span></h2> <br>
+			<h2>
+			<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPbTU4TkE1V09QVjA/view?usp=sharing">2014 HOT Team Tech Notes</a></h2>
+	<h2>	2014 CAD Archive</h2>
+			<h2>
+			<a href="https://www.youtube.com/watch?v=pHBzLlr8aso">2014 
+			Highlights Video</a></h2> <br>
+	</div>
+
+<!--2013-->
+	<div id="content1">
+		<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=f5VbX_9lRFo">
+				<img alt="2013HOTbot" src="EngineeringDesign/2013HOTBot.JPG" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: CURIE Quarter Final 4 Match 2</h3></td>
+			</tr>
+		</table>
+		<h1>2013</h1>
+		<a href="http://www.usfirst.org/roboticsprograms/frc/2013-competition-manual-and-related-documents" >
+		<img alt="Ultimate Ascent Logo" src="EngineeringDesign/UltimateAscent_small.jpg" class="gameLogo"></a>
+		<h2>
+		Game Description: 
+		<a href="http://www.usfirst.org/uploadedFiles/Robotics_Programs/FRC/Marketing_Tools/Communication_Assets/2013/2013_FRC_Game_1page.pdf">
+		ULTIMATE ASCENT</a> <span class="description">is played by two competing alliances on a flat, 27 x 
+		54 foot field. Each Alliance consists of three robots, and they compete 
+		to score as many discs into their goals as they can during a two-minute and fifteen -second match. The higher the goal in which 
+		the disc is scored, the more points the Alliance receives.</span></h2>  <br>
+		<h2><a href="https://www.youtube.com/watch?v=-_6nHuPbzB0"> 2013 Game Animation</a></h2>
+		<h2>2013 CAD Archive</h2>
+		<br> <br>
+	</div>
+
+<!--2012-->
+	<div id="content2">
+		<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=6ftfXCPBSy0">
+				<img alt="2012HOTbot" src="EngineeringDesign/2012.JPG" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Northville district finals Match 2</h3></td>
+			</tr>
+		</table>
+		<h1>2012</h1>
+				<a href="http://www.usfirst.org/roboticsprograms/frc/2012-competition-manual-and-related-documents" >
+		<img alt="Rebound Rumble Logo" src="EngineeringDesign/ReboundRumbleRGB.jpg" class="gameLogo"></a>
+		<h2>Game Description: <span class="description"> 
+		In
+		<a href="http://www.usfirst.org/sites/default/files/uploadedFiles/Robotics_Programs/FRC/Marketing_Tools/Communication_Assets/2012/2012_game_description_1page.pdf">
+		REBOUND RUMBLE</a>, two Alliances of three teams compete by trying to 
+		score as many basketballs in the hoops as possible during the two-minute 
+		and 15-second match. Balls scored in higher hoops score Alliances more 
+		points. Alliances are awarded bonus points if they are balanced on 
+		bridges at the end of the match. In matches where opponent Alliances 
+		work together to balance on the white “Coopertition®” bridge, all 
+		participating teams earn additional valuable seeding points.</span></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPNU5Xc20wcWFFUms/view?usp=sharing">2012 
+		Kickoff Presentation</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPWUVNT3J6Z0VfaTA/view?usp=sharing">2012 HOT Team Tech Notes</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPdk5HSWo0RHNuUE0/view?usp=sharing">
+		Behind the Design</a></h2>
+		<h2>2012 CAD Archive</h2>
+		<h2>
+		<a href="https://www.youtube.com/watch?v=fXrhdFnoCDU">2012 Highlights Video</a></h2> 
+	
+	</div>
+
+<!--2011-->
+	<div id="content3">		
+		<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=nWFfcAZCEec">
+				<img alt="2011HOTbot" src="EngineeringDesign/2011.JPG" style="float: center" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Curie Semifinals Match 2</h3></td>
+			</tr>
+		</table>
+		<h1>2011</h1>
+		<a href="http://www.usfirst.org/roboticsprograms/frc/2011-logo-motion™-game">
+		<img alt="Logo Motion Logo" src="EngineeringDesign/FRC_LOGO_MOTION_sml.png" class="gameLogo"></a>
+		<h2>Game Description: <span class="description"> 
+		<a href="http://www.usfirst.org/uploadedFiles/Robotics_Programs/FRC/Marketing_Tools/Communication_Assets/2011/2011_FRC_Short_Game_Description.pdf">LOGO MOTION™</a>, two alliances of three teams compete on a 27-by-54-foot field with poles, attempting to earn points by hanging as many triangle, circle, and square logo pieces as possible. Bonus points are earned for each robot that can hang and assemble logo pieces
+		 to form the FIRST logo. Robots can also deploy Mini-Bots to climb vertical poles for a chance to earn additional points.</span></h2> 
+		<h2><br>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPWmlpNGE3VlBLQVE/view?usp=sharing">2011 
+		Build Journal</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPNU8xS184VXpmTnc/view?usp=sharing">2011 
+		Tech Notes</a></h2>
+		<h2>
+		<a href="https://www.youtube.com/watch?v=odQYV3ZKPXU">2011 Highlights Video</a></h2> 
+	</div>
+
+<!--2010-->
+	<div id="content4">
+	
+		<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=Y7F7sUmZaUk">
+				<img alt="2010HOTbot" src="EngineeringDesign/2010.JPG" style="height: 240px" width="320" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Einstein final Match </h3></td>
+			</tr>
+		</table>
+		<h1>2010</h1>
+		<a href="http://www.usfirst.org/roboticsprograms/frc/2010-competition-manual-and-related-documents">
+		<img alt="Break Away Logo" src="EngineeringDesign/FRC2009_Breakaway.jpg" class="gameLogo" ></a>
+		<h2>Game Description: <span class="description">In 
+		<a href="http://www.usfirst.org/uploadedFiles/Robotics_Programs/FRC/FRC_Communications_Resource_Center/Communication_Assets/2010_Archive_Assets/2010Game.pdf">BREAKAWAY®</a>, two alliances of three teams 
+		compete on a 27-by-54-foot field with bumps, attempting to earn points 
+		by collecting soccer balls in goals. Additional bonus points are earned 
+		for each robot suspended in air and not touching the field at the end of 
+		the match.</span></h2> <br><br>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPWnJKWnp2NFUtTVU/view?usp=sharing">2010 HOT Team Tech Notes</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPZFpPVzQ1YXRPeUE/view?usp=sharing">
+		2010 CAD Model</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPVTlmZ1RWYXMzNms/view?usp=sharing">2010 CAD Archive</a></h2>
+		<h2>
+		<a href="https://www.youtube.com/watch?v=JI3NkSWoVEI">2010 Highlights Video</a></h2> 
+	</div>
+
+<!--2009-->
+	<div id="content5">
+	
+		<table class="robotImage">
+			<tr>
+				<td style="width: 326px" >
+				<a href="https://www.youtube.com/watch?v=-W_vJLQGOPE">
+				<img alt="2009HOTbot" src="EngineeringDesign/2009.JPG" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Einstein final Match </h3></td>
+			</tr>
+		</table>
+		<h1>2009</h1>
+		<a href="http://www.usfirst.org/roboticsprograms/frc/2009-first-robotics-competition-manual-and-related-documents" >
+		<img alt="Lunacy Logo" src="EngineeringDesign/300px-LunacyLogo.jpg" class="gameLogo" ></a>
+		<h2>Game Description: <span class="description">In&nbsp;
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPN1N0Wi1iZEMweUk/view?usp=sharing">
+		LUNACY®</a>, robots are designed to pick up 9" game balls and score 
+		them in trailers hitched to their opponents’ robots for points during 
+		a 2 minute and 15 second match. Additional points are awarded for
+		scoring a special game ball, the Super Cell, in theopponents' 
+		trailers during the last 20 seconds of the match. “LUNACY” is played 
+		on a low-friction floor, which means teams must contend with the laws 
+		of physics.</span></h2> 
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPbUFTOVp1bWlXMnc/view?usp=sharing">2009 HOT Team Tech Notes</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPbUhOR2VPdDdISWc/view?usp=sharing">2009 CAD Archive</a></h2>
+		<h2>
+		<a href="https://www.youtube.com/watch?v=d2I8TZSYD2g">2009 Highlights Video</a></h2> 
+	</div>
+
+<!--2008-->
+	<div id="content6">
+		<table class="robotImage">
+			<tr>
+				<td style="width: 326px" >
+				<a href="https://www.youtube.com/watch?v=Q0gVCDyOcXc">
+				<img alt="2008HOTbot" src="EngineeringDesign/2008.JPG"/></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Einstein final Match 1</h3></td>
+			</tr>
+		</table>
+		<h1>2008</h1>
+		<a href="http://www.usfirst.org/roboticsprograms/frc/2008-competition-manual-and-related-documents">
+		<img alt="Overdrive Logo" src="EngineeringDesign/300px-FIRSTOverdrive.jpg" class="gameLogo"></a>
+		<h2>Game Description: <span class="description"> 
+		In&nbsp; 
+		<a href="http://www.usfirst.org/uploadedFiles/Community/FRC/FRC_Documents_and_Updates/2008_Assets/Manual/7%20-The%20Game-RevG.pdf">
+		FIRST OVERDRIVE</a> students’ robots are designed to race around 
+		a track knocking down 40" inflated Trackballs and moving them around 
+		the track, passing them either over or under a 6'6" overpass. Extra
+		points are scored by robots positioning the Trackballs back on the 
+		overpass before the end of the 2 minute and 15 second match.</span></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPMEtjMWFoazJtbWc/view?usp=sharing">2008 
+		Brainstorming Presentation</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPcUJlX0QxTm55SXM/view?usp=sharing">2008
+		Controls Presentation</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPaHhNN1p1YlF3Z2s/view?usp=sharing">2008 
+		Engineering Group Presentation</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPc2NRUEZ6QkEzM0k/view?usp=sharing">2008 CAD Archive</a></h2>
+		<h2>
+		<a href="https://www.youtube.com/watch?v=jGyciE7wna0">2008 Highlights Video</a></h2>
+
+	</div>
+
+<!--2007-->
+	<div id="content7">
+			<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=sNTdpc0ed20">
+				<img alt="2007HOTbot" src="EngineeringDesign/2007.jpg" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Curie Semifinal 1 Match 2</h3></td>
+			</tr>
+		</table>
+		<h1>2007</h1>
+		<a href="http://www.usfirst.org/roboticsprograms/frc/2007-competition-manual-and-related-documents" >
+		<img alt="Rack-N-Roll Logo" src="EngineeringDesign/Rack%20N%20Roll-small.jpg" class="gameLogo" ></a>
+		<h2>Game Description: <span class="description"> 
+		In 
+		<a href="http://www.usfirst.org/uploadedFiles/Community/FRC/FRC_Documents_and_Updates/2007_assets/Manual/7-The_Game,Rev%20G.pdf">RACK ‘N’ ROLL</a> robots are designed to hang inflated 
+		colored tubes on pegs configured in rows and columns on 
+		a 10-foot high center “rack” structure. Extra points are scored by 
+		robots being in their home zone and lifted more than 4” off the floor 
+		by another robot before the end of the 2 minute and 15 second 
+		match.</span></h2> <br> <br>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPaFc1anRYc1RqYjg/view?usp=sharing">2007 HOT Team Tech Notes</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPQ2ZkOTFlejZEa3c/view?usp=sharing">2007 CAD Archive</a></h2>
+		<h2>
+		<a href="https://www.youtube.com/watch?v=BMzIiB3-ZN8">2007 Highlights Video</a></h2>
+	</div>
+
+
+<!--2006-->
+	<div id="content8">
+				<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=gkpR94VcWLU">
+				<img alt="2006HOTbot" src="EngineeringDesign/2006.JPG"/></a></td>
+			</tr>
+			<tr>
+				<td style="width: 326px"><h3>Video: Galileo Match 49</h3></td>
+			</tr>
+		</table>
+		<h1>2006</h1>
+		<a href="http://www.usfirst.org/roboticsprograms/frc/archived-game-documentation-and-event-results">
+		<img alt="Aim High Logo" src="EngineeringDesign/thumb_2006%20FRC%20Cover.jpg" 
+		class="gameLogo" style="height: 159px" width="125"></a>
+		<h2>Game Description: In 
+		<a href="http://www2.usfirst.org/2006comp/Manual/4-The_Game,_Rev_F.pdf">AIM HIGH</a>,
+		<span class="description">
+		 &nbsp;robots are designed to 
+		launch balls into goals while human players enter balls into play and 
+		score points by throwing/pushing balls into corner goals. Extra 
+		points are scored by robots racing back to their end zones and 
+		climbing the ramp to the platform before the end of the 2 minute and 
+		10 second match. </span></h2> 
+	<h2>	
+	<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPUURkQlRfYnBNZVE/view?usp=sharing">2006 CAD Archive</a></h2> 
+				<br><br><br> <br> <br>
+	</div>
+
+
+<!--2005-->
+	<div id="content9">
+			<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=b2Rqaf5-1-k">
+				<img alt="2005HOTbot" src="EngineeringDesign/2005.JPG"/></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Einstein finals&nbsp; Match 2</h3></td>
+			</tr>
+		</table>
+		<h1>2005</h1>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPbVNUUlBxRlhNM2c/view?usp=sharing">
+		<img alt="Triple Play Logo" src="EngineeringDesign/triple-play-640px_02282007.jpg" class="gameLogo"></a>
+		<h2>Game Description: <span class="description"> 
+		<a href="http://www.usfirst.org/uploadedFiles/Community/FRC/Team_Resources/Archived_Game_Docs/2005%20-%20The%20Game.pdf">
+		TRIPLE PLAY</a> is played on a 27' wide by 52' long playing field with 
+		the 9 goals configured in 3 x 3 matrix, similar to tic-tac-toe. The 
+		robots will attempt to place the red and blue game tetras in or on one 
+		or more of the nine goals to score points and “claim ownership” of the 
+		goals..</span></h2> <br> 
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPYmJyV2ZRZEk1MTA/view?usp=sharing">2005 HOT Team Tech Notes</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPMmR4ekpxcE9FSkE/view?usp=sharing">2005 CAD Archive</a></h2>
+		<h2>
+		<a href="https://www.youtube.com/watch?v=-j2grFq6RIc">2005 Chairmans Video</a></h2>
+	
+	</div>
+
+<!--2004-->
+	<div id="content10">
+				<table class="robotImage">
+			<tr>
+				<td style="width: 326px; height: 249px;" >
+				<a href="https://www.youtube.com/watch?v=yPy71k6jwaE">
+				<img alt="2004HOTbot" src="EngineeringDesign/2004Bot.JPG" style="height: 240px" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: great Lakes&nbsp; Match 79</h3></td>
+			</tr>
+		</table>
+		<h1>2004</h1>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPVTVFTEhvMjVOX0U/view?usp=sharing">
+		<img alt="FIRST Frenzy Logo" src="EngineeringDesign/FIRST-Frenzy-sm.jpg" class="gameLogo"></a>
+		<h2>Game Description: <span class="description"> 
+		<a href="http://www.usfirst.org/roboticsprograms/frc/archived-game-documentation-and-event-results">FIRST FRENZY=RAISING THE BAR</a>&nbsp; requires robots to collect and pass 
+		13” balls to the human player to then shoot them into fixed and moveable 
+		goals. There are three 30” balls on the playing field that can be placed 
+		on top of any goal by a robot, which will double the point value in the 
+		goal.&nbsp; Additionally,&nbsp; robots may attempt to “hang"&nbsp; from a 10’ bar.</span></h2> <br> 
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPOG5vOFFndkJBR1U/view?usp=sharing">2004 HOT Team Tech Notes</a></h2>
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPR05Dd09sOE8zc2c/view?usp=sharing">
+		2004 CAD Model</a></h2>
+				<h2>
+				<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPOGhQRjB4YnNHbUU/view?usp=sharing">2004 CAD Archive</a></h2>
+				<h2>
+				<a href="https://www.youtube.com/watch?v=xHMSeHx0YGQ">2004 Great Lakes Match 79</a></h2>
+		</div>
+		
+
+<!--2003-->
+	<div id="content11">
+			<table class="robotImage">
+			<tr>
+				<td style="width: 326px; height: 249px;" >
+				<a href="https://youtu.be/CI0zQDWqwZ4">
+				<img alt="2003HOTbot" src="EngineeringDesign/2003.jpg" style="height: 240px" width="320" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Newton sf 2&nbsp; Match 1</h3></td>
+			</tr>
+		</table>
+		<h1>2003</h1>
+		<a href="http://www.usfirst.org/uploadedFiles/Community/FRC/Team_Resources/Archived_Game_Docs/2003%20-%20The%20Game.pdf">
+		<img alt="FIRST Stack Attack" src="EngineeringDesign/200px-Stack_Attack_Logo.jpg" class="gameLogo"></a>
+		<h2>Game Description: <span class="description"> 
+		<a href="http://www.usfirst.org/roboticsprograms/frc/archived-game-documentation-and-event-results">
+		STACK ATTACK</a> requires robots to collect and stack plastic storage 
+		containers on their side of the playing field. The location of the 
+		robots and containers and the height of the stacks at the end of the 
+		match determine each team’s score for the round.</span></h2> <br> <br> 
+		<h2>
+		<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPWlhCa1RCQVRTWW8/view?usp=sharing">2003 HOT Team Tech Notes</a></h2>
+				<h2>
+				<a href="https://drive.google.com/file/d/0BwpTQ0IIJpuPSWozcUFMcmJ2c2c/view?usp=sharing">2003 CAD Archive</a></h2>
+
+	</div>
+
+
+<!--2002-->
+	<div id="content12">
+	<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=XFVJKNdK2mc">
+				<img alt="2002HOTbot" src="EngineeringDesign/2002%20(2).jpg" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Newton sf1 match 1</h3></td>
+			</tr>
+		</table>
+		<h1>2002</h1>
+		<img alt="Zone Zeal Logo" src="EngineeringDesign/2002.jpg" class="gameLogo" >
+		<h2>Game Description:<span class="description">
+		<a href="http://www.usfirst.org/aboutus/first-history">ZONE ZEAL</a>-Each 
+		2 minute match begins with the 24’ x 48’ field broken up into 5 zones 
+		and set up as follows. Four robots start on the playing field and are 
+		paired in alliances of 2. There are 2 robots at diagonally opposite 
+		corners, 10 soccer balls in each driver station area, 20 soccer balls 
+		centered along each side of the field, and 3 moveable goals weighing 
+		approximately 130 lbs each in the center zone. The strategies are 
+		endless, but the basic objectives are simple. Robots race around the 
+		playing field trying to gather balls, place them into goals, place the 
+		goals in their scoring zone, and return their robot to their starting 
+		zone before the 2 minutes have elapsed.</span></h2>
+		<br><br><br><br>
+	</div>
+
+
+<!--2001-->
+	<div id="content13">
+	<table class="robotImage">
+			<tr>
+				<td style="width: 326px" >
+				<a href="https://www.youtube.com/watch?v=Vsp2LjfJHsA">
+				<img alt="2001HOTbot" src="EngineeringDesign/2001.jpg" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Motorola midwest regional</h3></td>
+			</tr>
+		</table>
+		<h1>2001</h1>
+		<img alt="Diabolical Dynamics Logo" src="EngineeringDesign/2001cover.jpg" class="gameLogo" >
+		<h2>Game Description: <span class="description"> 
+		<a href="http://www.usfirst.org/aboutus/first-history">DIABOLICAL 
+		DYNAMICS</a>-Four teams work together 
+		as one alliance to try to achieve as high a score as possible in each 
+		match. Points are scored by placing balls in their goal, and by 
+		positioning their robots and goals in designated areas at the end of 
+		each match. At the start of each match, the alliance station contains 
+		twenty small balls. In addition there are twenty small balls and four 
+		large balls on the far side of the field which may be used to score 
+		points.  At the end of the two minute match, points are awarded as 
+		follows: the alliance will receive one point for each small ball in the 
+		goal and not in contact with a robot, and ten points for each large ball 
+		in the goal and not in contact with a robot. Each alliance will receive 
+		ten points for each robot that is in the End Zone. An additional ten 
+		points will be added if the stretcher is in the End Zone. The alliance 
+		doubles its score if the bridge is balanced. The alliance multiplies its 
+		score by a factor of up to three by ending the match before the two 
+		minute time limit. Each team receives the alliance score. A team 
+		multiplies its’ score by 1.1 if its large ball is on top of a goal. 
+		Scores are rounded up to the nearest whole point after applying all 
+		applicable multipliers.</span></h2>
+		<br>
+	</div>
+
+
+<!--2000-->
+	<div id="content14">
+		<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=uX2wlq_mAJQ">
+				<img alt="2000HOTbot" src="EngineeringDesign/2000.JPG" style="height: 240px" /></a></td>
+			</tr>
+			<tr>
+				<td>
+				<h3>Video: Motorola midwest regional <br> Qf4 Match3</h3>
+				</td>
+			</tr>
+		</table>
+		<h1>2000</h1>
+		<img alt="Co-Opertition Logo" src="EngineeringDesign/thumb_2000%20FRC%20Cover.jpg" class="gameLogo" >
+		<h2>Game Description: <span class="description">
+		<a href="http://www.usfirst.org/aboutus/first-history">CO-OPERTITION</a>-Four 
+		teams, paired in two alliances, will compete in each match. An alliance 
+		scores points by placing balls in their goal, and by positioning their 
+		robots in designated areas at the end of each match. At the start of a 
+		match each alliance has seven yellow balls and one black ball in their 
+		station. In addition, there are fifteen yellow balls and two black balls 
+		on the far side of the field which may be scored by either alliance.</span></h2>
+		<br><br><br><br><br><br>
+
+
+	</div>
+
+
+<!--1999-->
+	<div id="content15">
+	<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="https://www.youtube.com/watch?v=Q06xGhr8fPA">
+				<img alt="1999HOTbot" src="EngineeringDesign/1999.jpg" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: Philadelphia Alliance Regional </h3></td>
+			</tr>
+		</table>
+		<h1>1999</h1>
+		<img alt="Double Trouble Logo" src="EngineeringDesign/200px-Double_Trouble_Logo.jpg" class="gameLogo" >
+		<h2>Game Description: <span class="description"> 
+		<a href="http://www.usfirst.org/aboutus/first-history">DOUBLE TROUBLE
+		</a>-Points are scored by positioning “floppies,” robots, and the “puck” 
+		on the playing field. Floppies are light weight, pillow-like objects 
+		with Velcro-loop material located in the center and around the 
+		perimeter. Each alliance has ten color coded floppies located on the 
+		playing field and at the player stations.<br>At the end of each two 
+		minute match, points are awarded as follows: Each two-team alliance will 
+		receive one point for each of its floppies that is at least 2” over and 
+		not touching the playing field surface, and less than eight feet above 
+		the surface if the playing field. Each alliance will receive three 
+		points for each of its floppies eight feet or higher over the surface of 
+		the playing field. Any robot that climbs onto the puck will multiply its 
+		alliance’s score by three..</span></h2> <br>
+		<br><br><br><br>
+	
+	</div>
+
+<!--1998-->	
+	<div id="content16">
+	<table class="robotImage">
+			<tr>
+				<td style="width: 326px" >
+				<a href="https://www.youtube.com/watch?v=uPN-6VVbaiA">
+				<img alt="1998HOTbot" src="EngineeringDesign/1998.jpg" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: National Semifinals</h3></td>
+			</tr>
+		</table>
+		<h1>1998</h1>
+		<img alt="Ladder Logic Logo" src="EngineeringDesign/200px-Logic_Ladder_Logo.jpg" class="gameLogo" >
+		<h2>Game Description: <span class="description"> 
+		<a href="http://www.usfirst.org/aboutus/first-history">LADDER LOGIC </a>-In two minutes matches, the three robots and human 
+		players score points by placing the balls onto the side goals or into 
+		the central goal. The balls are color-coded to identify team ownership. 
+		A human player, located outside the perimeter of the field, is allowed 
+		to hand balls to the robot or throw balls directly at the goals.</span></h2> <br>
+		<br><br><br><br><br><br>
+		<br>
+
+	</div>
+
+<!--1997-->	
+		<div id="content17">
+		<table class="robotImage">
+			<tr>
+				<td style="width: 326px">
+				<a href="http://youtu.be/KtXejRtBqeI">
+				<img alt="1997HOTbot" src="EngineeringDesign/1997.jpg" /></a></td>
+			</tr>
+			<tr>
+				<td><h3>Video: CHICAGO REGIONAL Match 1</h3></td>
+			</tr>
+		</table>
+		<h1>1997</h1>
+		<img alt="Toroid Terror Logo" src="EngineeringDesign/200px-Toroid_Terror_Logo.jpg" class="gameLogo" >
+		<h2>Game Description: <span class="description"> 
+		<a href="http://www.usfirst.org/aboutus/first-history">TOROID TERROR </a>-in two minute matches, the three robots and human 
+		players score points by placing the inner tubes onto pegs in the goal, 
+		or around the top of the goal. The tubes are color coded to identify 
+		team ownership. Human players are not allowed onto the field, but they 
+		may hand tubes to the robots or throw tubes directly onto the goal..</span></h2> <br>
+		<br><br><br><br>
+		<br>
+		<br>
+
+	</div>
+
+	</div>
+
+	<!-- #EndEditable -->
+      <div id="footer"> 
+	  <div id="google">
+      <!-- Use of this code assumes agreement with the Google Custom Search Terms of Service. -->
+	  <!-- The terms of service are available at http://www.google.com//cse/docs/tos.html -->
+		 <form name="cse" id="searchbox_demo" action="https://www.google.com/cse">
+			 <input type="hidden" name="cref" value="" />
+			 <input type="hidden" name="ie" value="utf-8" />
+			 <input type="hidden" name="hl" value="" />
+			 <input name="q" type="text" size="40" />
+			 <input type="submit" name="sa" value="Search" />
+		 </form>
+		<script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+		</div>
+
+   	  <div id="quote">What did the fox say? <br><br></div>
+      </div>
+	
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../Fixed%20Top%20Navbar%20Example%20for%20Bootstrap_files/jquery.min.js"></script>
+    <script src="../Fixed%20Top%20Navbar%20Example%20for%20Bootstrap_files/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../Fixed%20Top%20Navbar%20Example%20for%20Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+  
+	 
+</body><!-- #EndTemplate -->
+
+</html>

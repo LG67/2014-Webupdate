@@ -1,22 +1,22 @@
 To Do
-Home-Chad
+Home							-Chad
 
 ABOUT
-Team Overview-Brandon
+Team Overview					-Brandon
 Community-Riley (done)
-Calendar
-Contact Us
+Calendar (done)
+Contact Us (done)
 
 SPONSORS
 
 RESOURCES
-GM Rules and Safety -LG
-Programming-Paul (Done?)
-Assembly
-Machining-Riley
-Electrical
-CAD-Varun
-Communications
+GM Rules and Safety 			-LG
+Programming-Paul (done)
+Assembly						-awaiting assignment
+Machining-Riley 				(almost done)
+Electrical						-awaiting assignment
+CAD-Varun (done)
+Communications					-awaiting assignment
 
 TEAM ADMIN
 Forms -LG (done)
@@ -24,15 +24,15 @@ Application Process -LG (done)
 Team Governance -LG (done)
 
 MEDIA
-Get Connected-Juliana
-Photos (Picasa)
+Get Connected					-Juliana
+Photos (Picasa) (done)
 Video (YouTube)-Ron
-In the Press
+In the Press 					-Riley
 
 ARCHIVE
-Team History -LG
-Engineering Design -LG
-Award Submissions -Riley
+Team History -LG (done)
+Engineering Design -LG (done)
+Award Submissions -Riley (done)
 Yearbook
 
 www.youtube.com/user/FRCHOTTeam67
