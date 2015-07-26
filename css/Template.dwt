@@ -59,7 +59,7 @@
               ABOUT <span class="caret"></span></a>
               <ul class="dropdown-menu">
 						 <li><a href='http://www.usfirst.org'><span>FIRST</span></a></li>
-						 <li><a href="http://www.hotteam67.org/community-outreach/"><span>TEAM OVERVIEW</span></a></li>
+						 <li><a href="http://www.hotteam67.org/team-overview/http://www.hotteam67.org/team-overview/"><span>TEAM OVERVIEW</span></a></li>
 						 <li><a href='../About/CommunityOutreach.html'><span>COMMUNITY OUTREACH</span></a></li>
 						 <li><a href='../About/Calendar.html'><span>CALENDAR</span></a></li>
 						 <li><a href='../About/ContactUs.html'><span>CONTACT US</span></a></li>
@@ -94,9 +94,9 @@
               <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
               ADMIN <span class="caret"></span></a>
               <ul class="dropdown-menu">
-						 <li><a href='../TeamAdmin/forms.html'><span>FORMS</span></a></li>
+						 <li><a href='../TeamAdmin/Forms.html'><span>FORMS</span></a></li>
 						 <li><a href='../TeamAdmin/ApplicationProcess.html'><span>APPLICATION PROCESS</span></a></li>
-						 <li><a href='../TeamAdmin/governance.html'><span>GOVERNANCE</span></a></li>
+						 <li><a href='../TeamAdmin/Governance.html'><span>GOVERNANCE</span></a></li>
               </ul>
             </li>
 
@@ -177,21 +177,13 @@
 	<!-- #EndEditable -->
       <div id="footer"> 
 	  <div id="google">
-      <!-- Use of this code assumes agreement with the Google Custom Search Terms of Service. -->
-	  <!-- The terms of service are available at http://www.google.com//cse/docs/tos.html -->
-		 <form name="cse" id="searchbox_demo" action="https://www.google.com/cse">
-			 <input type="hidden" name="cref" value="" />
-			 <input type="hidden" name="ie" value="utf-8" />
-			 <input type="hidden" name="hl" value="" />
-			 <input name="q" type="text" size="40" />
-			 <input type="submit" name="sa" value="Search" />
-		 </form>
-		<script type="text/javascript" src="https%3A%2F%2Fcse.google.com%2Fcse/tools/onthefly?form=searchbox_demo&lang="></script>
+	<form method="get" action="http://www.google.com/search"> <input type="text" name="q" size="31" maxlength="255" value="" /> 
+	<input type="submit" value="Search" /> <br><input type="radio" name="sitesearch" value="" /> The Web 
+	<input type="radio" name="sitesearch" value="hotteam67.org" checked />HOT Site</form>
 		</div>
-
    	  <div id="quote">What did the fox say? <br><br></div>
       </div>
-	
+    
 
 
 
