@@ -27,7 +27,7 @@ background-image:url('../images/background.png');
 	margin-top: 3px;
 }
 
-# main content, #secContent{
+#mainContent, #secContent, #secContent0, #secContent1, #secContent2, #secContent3 {
 	float:left;
 	width: 73%;
 	margin: 10px 0 0 18px;
@@ -188,6 +188,12 @@ vertical-align:top;
 height: 100px; 
 float: left;
 margin-right: 10px;
+}
+
+.cvideo
+{  margin-left: auto;
+    margin-right: auto;
+    display: block	
 }
 
 .description {
