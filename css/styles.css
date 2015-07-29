@@ -1,94 +1,44 @@
-﻿/*css reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1.2em;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* main page defaults */
+﻿/* main page defaults */
 /* ID styles   */
 
+/* ---------------------Styles for All Pages ----------------------------------*/
 body 
 {	
-background-image:url('../images/background.png')
+background-image:url('../images/background.png');
 }
 
-#wrapper, #header {
+#HOT_header {
+	text:center;
 	width: 95%;
 	margin: 0 auto;
 	background-image:url('../images/background.png');
 }
-#banner {
-	width: 95%;
-	margin: 15px auto;
-	padding: 10px 10px 10px 10px;
-	background-color:black;
-}
-#banner img {
-	width:100%;
-	height:auto	
-}
+
 
 #subbanner {
 	width: 95%;
-	margin: 10px auto;
-	padding: 10px 10px 10px 10px;
+	margin: 0px auto;
+	padding: 1px 10px 10px 10px;
+	text-align:left;
 	background-color:black;
 }
 #subbanner img {
-	width:100px; height:auto;
-	float: right;
+	width:100%; height:auto;
+	text:center;
 	vertical-align: top;
-	margin-top: 3;
+	margin-top: 3px;
 }
 
-#mainContent, #secContent {
+/* =-----------------------Styles For Index --------------------------------- */
+#mainContent, #secContent, #secContent0, #secContent1, #secContent2, #secContent3 {
 	float:left;
-	width: 73%;
-	margin: .7em 0 0 18px;
+	width: 60%;
+	margin: 10px 0px 0 30px;
 	padding: 10px 10px 10px 10px;
 	background-color:black;
 }
-#secContent img{
+
+#secContent img, #secContent0 img, #secContent1 img, #secContent2 img{
 	height:100px; width:auto;
 	margin: 3px 0 0 10px;
 	float: left;
@@ -96,42 +46,43 @@ background-image:url('../images/background.png')
 }
 
 #rightside { 
-	width: 18%;
-	margin: 1.3em 78%;
+	width: 31%;
+	margin: 10px 65%; 
 	padding: 10px 10px 10px 10px;
 	background-color:black;
 	line-height:150%;
 }
+/* =-----------------------Styles For Linked Pages --------------------------------- */
 
+#content, #content0, #content1, #content2, #content3, #content4, #content5, #content6, #content7, #content8, #content9, #content10, #content11, 
+#content12, #content13, #content14, #content15, #content16, #content17, #content18, #content19, #content20, #content21, #content22, #content23, 
+#content24, #content25{
+	width: 95%;
+	margin: 10px auto;
+	padding: 10px 10px 10px 10px;
+	background-color:black;
+	}
+/*------------------------Styles for All Pages --------------------------------------*/
 #footer	{
+	text-align:left;
 	clear: both;
 	width: 95%;
-	margin: auto;
-	margin-top: 4em;
-	padding: 0px 10px 66px 10px;
+	margin: 10px auto;
+	padding: 10px 10px 10px 10px;
 	background-color:black;
 }
 
-#googleSearch {
-	width: 400px;
-	height: 100%;
-	float: left;
-	margin: 0 0 0px 10px;
-	padding: 0 0 50px 0;
-}
-
-#socialMedia {
-	float: right; 
-	margin: 18px 20px 0 0;
-}
-
-#socialMedia img {
-	width:30px; height:30px	
-}
-
-#socialMedia ul li {
+#footer ul li {
 	display:inline;
 }	
+#footer img{
+	height:30px;
+	margin-top: 0px; }	 /*Standard size for media icons*/
+	
+#google{
+	float:right;
+	margin-right:20px;
+			}
 
 /* tag styles */
 
@@ -146,9 +97,17 @@ h1,h2,h3,h4,h5 {
 h1 {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 24px;
-	color:red;
-	text-transform: uppercase;	
+	font-weight: bolder;
+	color:white;
+	text-transform: uppercase;
 }
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color:white;
+}
+
 h3 {font-family:Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color:white;
@@ -160,191 +119,171 @@ h4 {
 	font-size: 14px;
 	color:red;
 }
+
 p {font-family:Arial, Helvetica, sans-serif;
 	color:white;
 	}
+
+li{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	color:white;
+}
+ol, ul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	list-style:none;}
+}
+	/*link css */
+
+a:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+    color: red;
+}
+a:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+    color: red;
+}
+a:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+    color: yellow;
+}
+a:active {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	color: yellow;
+}
+a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	color: red;
+}	
+
 	
 /* class styles */	
 .banner {color:white;}
-	
-/*CSS menu styles*/
+
+/* image format css */
+.robotImage {
+	float:right;
+	width: 340px;
+	text-align: center;
+}
+
+.robotImage img {
+	height: 240px;
+	text-align: center;
+}
+
+.gameLogo
+{
+vertical-align:top;
+height: 100px; 
+float: left;
+margin-left: 3px;
+margin-right: 10px;
+}
+
+.logo
+{
+vertical-align:top;
+height: 100px; 
+float: left;
+margin-right: 10px;
+}
+
+.cvideo
+{  margin-left: auto;
+    margin-right: auto;
+    display: block	
+}
+
+.description {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
 
 
-#cssmenu ul,
-#cssmenu li,
-#cssmenu span,
-#cssmenu a {
-  margin: 0;
-  padding: 0;
-  position: relative;
+
+/******************************************************
+Navigation Bar 
+*******************************************************/
+.navbar-default {	
+	margin:auto;
+	width:95%;		
+    background-color: black;
+    border-color:#242424;
+ 	border-radius: 7px 0px 0 0px;
+  	-moz-border-radius: 7px 0px 0 0px;
+ 	-webkit-border-radius: 7px 0px 0 0px;
+
 }
-#cssmenu {
-  line-height: 1;
-  border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  -webkit-border-radius: 5px 5px 0 0;
-  background: #ffffff;
-  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-  border-bottom: 2px solid #db000b;
-  width: auto;
+
+.navbar-header{ /*background of "Home" button and collapsed menu header */
+  background-color:black;
+  text-align:left;
+  padding: 15px 0 15px 10px;
+  border-radius: 7px 0px 0 0;
+  -moz-border-radius: 7px 0px 0 0;
+  -webkit-border-radius: 7px 0px 0 0;
+  }
+  
+.navbar-brand {float:none;}  
+
+
+.navbar-default .navbar-brand{	/*Home button*/
+	font-size:x-large;
+     color: white;
 }
-#cssmenu:after,
-#cssmenu ul:after {
-  content: '';
-  display: block;
-  clear: both;
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	font-size:x-large;
+     color:red;
 }
-#cssmenu a {
-  background: #ffffff;
-  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-  color: #ffffff;
-  display: block;
-  font-family: Helvetica, Arial, Verdana, sans-serif;
-  padding: 19px 20px;
-  text-decoration: none;
+
+.navbar-nav{
+	background-color:black; /*background color of top level menu items*/
 }
-#cssmenu ul {
-  list-style: none;
+
+.navbar .nav > li > a {
+    float: none;
+    line-height: 19px;
+    padding: 15px 10px 5px; 
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: white;	/*text color of top level menu text */
 }
-#cssmenu > ul > li {
-  display: inline-block;
-  float: left;
-  margin: 0;
+
+/*Sets the text hover color on navbar*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: red;  
 }
-#cssmenu.align-center {
-  text-align: center;
+
+/*display dropdown menu on hover instead of on click */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+	margin-top:0px;
 }
-#cssmenu.align-center > ul > li {
-  float: none;
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+   color: #262626;   /*standard drop down text is gray */
+   text-decoration: none;
+   background-color: maroon;  /*change background color of links in drop down here*/
+   color:white; /*text color in highlighted dropdown*/
+   }
+   
+.navbar-right img {
+	margin-top:10px;
+	margin-right:5px;
+	height:30px;
 }
-#cssmenu.align-center ul ul {
-  text-align: left;
-}
-#cssmenu.align-right > ul {
-  float: right;
-}
-#cssmenu.align-right ul ul {
-  text-align: right;
-}
-#cssmenu > ul > li > a {
-  color: #000000;
-  font-size: 12px;
-}
-#cssmenu > ul > li:hover:after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #db000b;
-  margin-left: -10px;
-}
-#cssmenu > ul > li:first-child > a {
-  border-radius: 5px 0 0 0;
-  -moz-border-radius: 5px 0 0 0;
-  -webkit-border-radius: 5px 0 0 0;
-}
-#cssmenu.align-right > ul > li:first-child > a,
-#cssmenu.align-center > ul > li:first-child > a {
-  border-radius: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-}
-#cssmenu.align-right > ul > li:last-child > a {
-  border-radius: 0 5px 0 0;
-  -moz-border-radius: 0 5px 0 0;
-  -webkit-border-radius: 0 5px 0 0;
-}
-#cssmenu > ul > li.active > a,
-#cssmenu > ul > li:hover > a {
-  color: #000000;
-  box-shadow: inset 0 0 3px #d9d9d9;
-  -moz-box-shadow: inset 0 0 3px #d9d9d9;
-  -webkit-box-shadow: inset 0 0 3px #d9d9d9;
-  background: #f2f2f2;
-  background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f2f2f2));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-  background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
-}
-#cssmenu .has-sub {
-  z-index: 1;
-}
-#cssmenu .has-sub:hover > ul {
-  display: block;
-}
-#cssmenu .has-sub ul {
-  display: none;
-  position: absolute;
-  width: 200px;
-  top: 100%;
-  left: 0;
-}
-#cssmenu.align-right .has-sub ul {
-  left: auto;
-  right: 0;
-}
-#cssmenu .has-sub ul li {
-  *margin-bottom: -1px;
-}
-#cssmenu .has-sub ul li a {
-  background: #db000b;
-  border-bottom: 1px dotted #ff0f1b;
-  font-size: 11px;
-  filter: none;
-  display: block;
-  line-height: 120%;
-  padding: 10px;
-  color: #ffffff;
-}
-#cssmenu .has-sub ul li:hover a {
-  background: #a80008;
-}
-#cssmenu ul ul li:hover > a {
-  color: #ffffff;
-}
-#cssmenu .has-sub .has-sub:hover > ul {
-  display: block;
-}
-#cssmenu .has-sub .has-sub ul {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: 0;
-}
-#cssmenu.align-right .has-sub .has-sub ul,
-#cssmenu.align-right ul ul ul {
-  left: auto;
-  right: 100%;
-}
-#cssmenu .has-sub .has-sub ul li a {
-  background: #a80008;
-  border-bottom: 1px dotted #ff0f1b;
-}
-#cssmenu .has-sub .has-sub ul li a:hover {
-  background: #8f0007;
-}
-#cssmenu ul ul li.last > a,
-#cssmenu ul ul li:last-child > a,
-#cssmenu ul ul ul li.last > a,
-#cssmenu ul ul ul li:last-child > a,
-#cssmenu .has-sub ul li:last-child > a,
-#cssmenu .has-sub ul li.last > a {
-  border-bottom: 0;
+    
+
+.collapsed{
+	background-color:black; /*color of menu icon in collapsed menubar*/
 }
