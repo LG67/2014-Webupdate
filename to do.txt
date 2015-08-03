@@ -10,9 +10,9 @@ Contact Us (done)
 SPONSORS
 
 RESOURCES
-GM Rules and Safety 			-LG
+GM Rules and Safety (done)
 Programming-Paul (done)
-Assembly						-awaiting assignment
+Assembly (done)						
 Machining-Riley 				(almost done)
 Electrical						-awaiting assignment
 CAD-Varun (done)
