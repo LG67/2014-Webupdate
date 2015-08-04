@@ -21,6 +21,7 @@ background-image:url('../images/background.png');
 	padding: 1px 10px 10px 10px;
 	text-align:left;
 	background-color:black;
+	margin-top:10px
 }
 #subbanner img {
 	width:100%; height:auto;
