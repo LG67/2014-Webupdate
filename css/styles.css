@@ -31,9 +31,24 @@ background-image:url('../images/background.png');
 }
 
 /* =-----------------------Styles For Index --------------------------------- */
-#fadeshow1 img{
-	width:100%;
-	}
+#fadewrapper{
+	width:95%;
+	background-color:black;
+	margin: 0px auto;
+}
+
+#fadeshow4{
+	min-height:320px;
+	margin: 0px auto;
+	padding: 1px 10px 10px 10px;
+	z-index:0;
+}
+
+#fadeshow4.gallerylayer img{ 
+width: 100%;
+height: auto;
+z-index:0;
+}
 		
 #contentContainer{
 	background-image:url('../images/background.png');
