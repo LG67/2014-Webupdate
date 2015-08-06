@@ -32,12 +32,9 @@ background-image:url('../images/background.png');
 
 /* =-----------------------Styles For Index --------------------------------- */
 #fadewrapper{
-	width: 95%;
-	margin: 0px auto;
-	padding: 1px 10px 10px 10px;
-	text-align:center;
+	width:95%;
 	background-color:black;
-	margin-top:10px
+	margin: 0px auto;
 }
 
 #fadeshow4{
