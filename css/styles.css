@@ -74,25 +74,25 @@ z-index:0;
 }
 
 #rightside{ 
-	width: 32%;
+	width: 29%;
 	position:relative;
 	min-width: 250px;
 	vertical-align:top;
 	float: left;
 	margin-top: 10px; 
-	margin-left:10px;
+	margin-left:30px;
 	padding: 10px 10px 10px 10px;
 	background-color:black;
 	line-height:150%;
 }  
 #first{ 
-	width: 32%;
+	width: 29%;
 	position:relative;
 	min-width: 250px;
 	vertical-align:top;
 	float: left;
 	margin-top: 10px; 
-	margin-left:10px;
+	margin-left:30px;
 	margin-bottom:10px;
 	padding: 10px 10px 10px 10px;
 	background-color:black;
