@@ -1,8 +1,8 @@
 To Do
-Home							-Chad
+Home	(stable)    -Chad investigate improvements
 
 ABOUT
-Team Overview					-Brandon
+Team Overview					  -Brandon
 Community-Riley (done)
 Calendar (done)
 Contact Us (done)
@@ -14,7 +14,7 @@ GM Rules and Safety (done)
 Programming-Paul (done)
 Assembly (done)						
 Machining-Riley 				(almost done)
-Electrical						-awaiting assignment
+Electrical						  -Chad
 CAD-Varun (done)
 Communications					-Varun
 

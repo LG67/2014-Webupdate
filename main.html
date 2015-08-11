@@ -1,103 +1,231 @@
-﻿<!DOCTYPE HTML>
-<html>
-<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Heroes of Tomorrow</title>
-<link href="css/styles.css" rel="stylesheet" type="test/css" media="screen">
+﻿<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/navbar-fixed-top/ -->
+<!-- #BeginTemplate "css/Template.dwt" -->
 
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="theme-color" content="#d53737">
-   <link rel="stylesheet" href="css/styles.css">
-   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-   <script src="script.js"></script>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+ 
+    <!-- #BeginEditable "doctitle" -->
+ 
+    <title>Heroes Of Tomorrow</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+	</script>
 	
-<link rel="shortcut icon" sizes="16x16" href="http://www.hotteam67.org/wp-content/uploads/2015/06/favicon.ico" />
-<link rel="icon" sizes="192x192" href="http://www.hotteam67.org/wp-content/uploads/2015/06/67-block1.png" />
-</head>
+	<script type="text/javascript">
 
-<body>
+var mygallery=new fadeSlideShow({
+	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+	dimensions: [750, 400], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["images/Fadeshow800/pic1a.jpg"," ","", "2010 World Championship Win"],
+		["images/Fadeshow800/pic2a.jpg"," ","", "2013 District Win"],
+		["images/Fadeshow800/pic3a.jpg"," ","", "67 is Everywhere"],
+		["images/Fadeshow800/pic4a.jpg"," ","", "2005 World Champions and Chairmans Award Winners"], 
+		["images/Fadeshow800/pic5a.jpg", "", "", "Promoting FIRST"],
+		["images/Fadeshow800/pic6a.jpg"," ","", "2009 World Champions"],
+		["images/Fadeshow800/pic7a.jpg"," ","", "2011 Pit Banner"],
+		["images/Fadeshow800/pic8a.jpg", "", "", "2011 Michigan Championship Win"], 
+		["images/Fadeshow800/pic9a.jpg", "", "", "Community Service"],
+		["images/Fadeshow800/pic10a.jpg", "", "", "Mentoring"],
+		["images/Fadeshow800/pic11a.jpg", "", "", "1997 Rookie All Star"],
+		["images/Fadeshow800/pic12a.jpg", "", "", "In Our Community"]
+		
+		//<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:2000, cycles:5, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "ondemand",
+	togglerid: ""
+})
 
-<div id="wrapper">
+</script>
 
-<div id="header">
-	<img src="images/header.png" id="header">
-</div>		
 
-	
-<div id='cssmenu'>
-<ul>
-<li><a href='#'><span>HOME</span></a></li>
-<li class='active has-sub'><a href='#'><span>ABOUT</span></a>
-<ul>
-	<li><a href='#'><span>FIRST</span></a></li>
-	<li><a href='#'><span>TEAM OVERVIEW</span></a></li>
-   	<li><a href='#'><span>COMMUNITY OUTREACH</span></a></li>
-   	<li><a href='#'><span>CALENDAR</span></a></li>
-   	<li><a href='#'><span>CONTACT US</span></a></li>
-	<ul>
-		<li class='last'><a href='#'><span>Sub Product</span></a></li>
-	</ul>
-</ul>
-</li>
-<li class='active has-sub'><a href='#'><span>SPONSORS</span></a>
-<ul>
-  	<li><a href='#'><span>GENERAL MOTORS</span></a></li>
-   	<li><a href='#'><span>HURON VALLEY SCHOOLS</span></a></li>
-   	<li class='last'><a href='#'><span>SOLIDWORKS</span></a></li>
-</ul>
-</li>
-<li class='active has-sub'><a href='#'><span>RESOURCES</span></a>
-<ul>
-   	<li><a href='#'><span>GM RULES AND SAFETY</span></a></li>
-   	<li><a href='#'><span>PROGRAMMING</span></a></li>
-   	<li><a href='#'><span>ASSEMBLY</span></a></li>
-   	<li><a href='#'><span>MACHINING</span></a></li>
-   	<li><a href='#'><span>ELECTRICAL</span></a></li>
-   	<li><a href='#'><span>CAD</span></a></li>
-   	<li class='last'><a href='#'><span>COMMUNICATIONS</span></a></li>
-</ul>
-</li>
-<li class='active has-sub'><a href='#'><span>TEAM ADMIN</span></a>
-<ul>
-   	<li><a href='#'><span>FORMS</span></a></li>
-	<li><a href='#'><span>APPLICATION PROCESS</span></a></li>
-   	<li class='last'><a href='#'><span>GOVERNANCE</span></a></li>
-</ul>
-</li>
-<li class='active has-sub'><a href='#'><span>MEDIA</span></a>
-<ul>
-   	<li><a href='#'><span>GET CONNECTED</span></a></li>
-   	<li><a href='#'><span>PHOTO ALBUM</span></a></li>
-   	<li><a href='#'><span>VIDEO & ANIMATION</span></a></li>
-   	<li><a href='#'><span>IN THE PRESS</span></a></li>
-</ul>
-<li class='active has-sub'><a href='#'><span>ARCHIVE</span></a>
-<ul>
-	<li><a href='#'><span>TEAM HISTORY</span></a></li>
-	<li><a href='#'><span>ENGINEERING DESIGN</span></a></li>
-	<li class='last'><li><a href='#'><span>AWARD SUBMISSIONS</span></a></li>
-</ul>
-</li>
-<li class='last'><a href='#'><span>YEARBOOK</span></a></li>
-</ul>
+
+
+
+
+
+
+
+	<!-- #EndEditable -->
+
+<!--	<base target="_blank">    -->
+	<link rel="shortcut icon" sizes="16x16" href="http://www.hotteam67.org/wp-content/uploads/2015/06/favicon.ico" />
+	<link rel="icon" sizes="192x192" href="http://www.hotteam67.org/wp-content/uploads/2015/06/67-block1.png" />
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/collapseSetPt.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  	
+  	<div id="HOT_header" class="text-center">
+     <img alt="HOT Head" src="images/header.png" width="95%" >
+    </div>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://www.hotteam67.org">HOME</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+ 
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              ABOUT <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='http://www.usfirst.org'><span>FIRST</span></a></li>
+						 <li><a href="http://www.hotteam67.org/team-overview/"><span>TEAM OVERVIEW</span></a></li>
+						 <li><a href='About/CommunityOutreach.html'><span>COMMUNITY OUTREACH</span></a></li>
+						 <li><a href='About/Calendar.html'><span>CALENDAR</span></a></li>
+						 <li><a href='About/ContactUs.html'><span>CONTACT US</span></a></li>
+              </ul>
+            </li>
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              SPONSORS <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='http://www.gm.com'><span>GENERAL MOTORS</span></a></li>
+						 <li><a href='http://www.hvs.org'><span>HURON VALLEY SCHOOLS</span></a></li>
+						 <li><a href='http://www.solidworks.com'><span>SOLIDWORKS</span></a></li>
+              </ul>
+            </li>
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              RESOURCES <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='Resources/Safety.html'><span>GM RULES AND SAFETY</span></a></li>
+						 <li><a href='http://hal7df.github.io/pauls-tutorials'><span>PROGRAMMING</span></a></li>
+						 <li><a href="Resources/Assembly.html"><span>ASSEMBLY</span></a></li>
+						 <li><a href='Resources/machining.html'><span>MACHINING</span></a></li>
+						 <li><a href="About/67Percent.html"><span>ELECTRICAL</span></a></li>
+						 <li><a href='Resources/CAD.html'><span>CAD</span></a></li>
+						 <li><a href="About/67Percent.html"><span>COMMUNICATIONS</span></a></li>
+              </ul>
+            </li>
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              ADMIN <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='TeamAdmin/Forms.html'><span>FORMS</span></a></li>
+						 <li><a href='TeamAdmin/ApplicationProcess.html'><span>APPLICATION PROCESS</span></a></li>
+						 <li><a href='TeamAdmin/Governance.html'><span>GOVERNANCE</span></a></li>
+              </ul>
+            </li>
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              MEDIA <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href="Media/GetConnected.html"><span>GET CONNECTED</span></a></li>
+						 <li><a href="https://plus.google.com/photos/107452000678789858518/albums?banner=pwa"><span>PHOTO ALBUM</span></a></li>
+						 <li><a href='https://www.youtube.com/user/FRCHOTTeam67/videos'><span>VIDEO &amp; ANIMATION</span></a></li>
+						 <li><a href="About/67Percent.html"><span>IN THE PRESS</span></a></li>
+              </ul>
+            </li>
+
+
+           <li class="dropdown">
+              <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              ARCHIVE <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+						 <li><a href='Archive/TeamHistory.html'><span>TEAM HISTORY</span></a></li>
+						 <li><a href='Archive/EngineeringDesign.html'><span>ENGINEERING DESIGN</span></a></li>
+						 <li><a href='Archive/AwardSubmissions.html'><span>AWARD SUBMISSIONS</span></a></li>
+              </ul>
+            </li>
+
+            <li><a href="http://www.hotteam67.org/category/hot-team-news/">YEARBOOK</a></li>
+
+          </ul>
+
+<!--Media Menu -->
+          <ul class="nav navbar-nav navbar-right">
+					 <a href="https://github.com/hot67">
+					 <img src="images/GitHub.png" ></a> 
+					 
+					 
+					 <a href="https://www.facebook.com/pages/FRC-67-Heroes-of-Tomorrow/431126933634849">
+					 <img src="images/facebook.png" ></a> 
+					 
+					 
+					 <a href="https://plus.google.com/u/0/107452000678789858518/posts">
+					 <img src="images/g_plus.png" ></a> 
+					 
+					 <a href="https://twitter.com/FRC67">
+					 <img src="images/twitter.png" ></a> 
+					 
+					 <a href="https://www.youtube.com/user/FRCHOTTeam67/videos"> 
+					 <img src="images/YouTube.jpg"></a>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+      <!-- #BeginEditable "content" -->
+<div id="subbanner">      
+<div id="fadeshow1" style="margin: 0 auto; z-index:0"></div>
 </div>
 
-
-<div id= 'banner'>
-<img  src="images/banner1.jpg">
-</div>
-	
-
-<div id="subbanner">
-<h1 class="banner">A FIRST Hall of Fame Team<img src="images/HOFWinner2005.jpg" class="auto-style2" ></h1><p>The Heroes of Tomorrow is a FIRST&copy; Robotics Team located in southeastern Michigan. Students from Huron Valley Schools three high schools 
+<div id="contentContainer">
+<div id="mainContent">
+<h1 class="banner"> A FIRST Hall of Fame Team<img src="images/HOFWinner2005.jpg" style="float: right" ></h1><p>The Heroes of Tomorrow is a FIRST
+&copy; Robotics Team located in southeastern Michigan. Students from Huron Valley Schools three high schools 
 work with mentors with similar interests from the General Motors Proving Ground and Huron Valley Schools.  The HOT Team’s mission is to 
 inspire students’ interest in science and technology. The HOT Team earned the FIRST Chairman’s Award in 2005.  With this award, the HOT Team 
-became a member of the FIRST Hall of Fame.&nbsp; </p>
+became a member of the FIRST Hall of Fame.&nbsp; </p><br>
 </div>
 
+<div id="spotlight">
+<h1>Tinkering Camp</h1>
+	<img alt="Tinkering Camp" src="Yearbook/TinkeringCamp.jpg" width="200" style="float: left; margin-right:10px">
+	<p>On July 31, 2015  several members of the HOT Team worked hard to end the Robotics Camp at Milford Cooperative Preschool with a bang! We began to teach the group about gears by building with Legos and making a propeller with paper. This activity was to teach them the difference between speed and strength with the different order/formation of gears. Before we even got to demonstrate our robots, a few of the campers were able to tell us about the gears! Once our beginning activity was over, we gathered and gave a presentation on the progression of Robotics. Then we broke into three groups. They consisted of letting the kids drive one of the robots, playing catch with another robot, and building with Legos. The kids were very excited and loved the diverse robots; they especially loved the balloon animals made from one of our robots.
+I'll see you at Milford Memories in a week!   More Team Events </p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 Read More On The....<a href="http://www.hotteam67.org/yearbook/">HOT Team Blog</a></p>
+ </div>
 
-<div id="mainContent">
+
+<!--<div id="secContent">
 <h1>
 JOIN THE HOT TEAM!
 </h1>
@@ -106,66 +234,50 @@ Be a part of this awesome Hall of Fame FIRST robotics team.  FIRST is more than 
 catalyst for inspiring innovation. The HOT Team designs, builds, wires, programs, documents, and markets 
  championship caliber robots. Along the way you’ll learn valuable technical, media, job, and leadership skills.
 </p>
+</div>  -->
+
 </div>
 
-
-<div id="secContent">
+<div id="rightside">
+	<h1>UPCOMING EVENTS </h1> 
+	<h2>August 7-9</h2> <h4>Milford Memories</h4>
+	<h2>August 12-14</h2>
+	<h4> Sr Pictures @ Double Exposure</h4>
+	<h2>August 15</h2><h4> Huron River Clean-up	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="About/Calendar.html">HOT Calendar</a></h4>	
+</div>
+<div id="first">
 <h1>A Varsity Sport for the Mind</h1>
 <p>
 <a href="http://www.usfirst.org/aboutus/vision">
-<img src="images/FIRSTlogoR_color_rev_rgb.jpg"></a>
+<img src="images/FIRSTlogoR_color_rev_rgb.jpg" style="float: right" width="170"></a>
 FIRST® programs are designed to motivate young people to pursue education and career opportunities in science, 
 technology, engineering, and math, while building life skills, including self-confidence, communication, and leadership.
 </p>
 </div>
 
-<div id="rightside">
-	<h1>UPCOMING EVENTS </h1> 
-	<h2>June 26</h2> <h4>Highland Library Robotics Program</h4> 
-	<h2>June 29</h2><h4> Garden Gate Montessori Presentation</h4>
-	<h2>June 30</h2><h4> Pay to Participate Fee Due	</h4>
-	<br><br>
-</div>
 
-	<div id="footer">
-	
-	<div id="googleSearch">
-	<script>
-  (function() {
-    var cx = '001801015815256102743:1jyqkkmel9y';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-	</script>
-<gcse:search></gcse:search>
-	</div>
+	<!-- #EndEditable -->
+      <div id="footer"> 
+	  <div id="google">
+	<form method="get" action="http://www.google.com/search"> <input type="text" name="q" size="31" maxlength="255" value="" /> 
+	<input type="submit" value="Search" /> <br><input type="radio" name="sitesearch" value="" /> The Web 
+	<input type="radio" name="sitesearch" value="hotteam67.org" checked />HOT Site</form>
+		</div>
+   	  <div id="quote">Team 67 Website Beta Test e-mail lori.gleason@gmail.com if you find any issues.  <br>Web Development Team: Chad Abou-Hamdan, 
+		  Juliana Jakubczak, Varun Kutirakulam, Brandon Mackey, and Riley 
+		  Morris,. <br></div>
+      </div>
+    
 
-	<div id="socialMedia">
-	<ul>
-	<li><a href="https://github.com/hot67">
-	<img src="images/GitHub.png" class="auto-style1"></a></li>
-	<li>
-	<li>
-	<a href="https://www.facebook.com/pages/FRC-67-Heroes-of-Tomorrow/431126933634849">
-	<img src="images/facebook.png" class="auto-style1"></a></li>
-	<li>
-	<a href="https://plus.google.com/u/0/107452000678789858518/posts">
-	<img src="images/g_plus.png" class="auto-style1"></a></li>
-	<li><a href="https://twitter.com/FRC67">
-	<img src="images/twitter.png" class="auto-style1"></a></li>
-	<li><a href="https://www.youtube.com/user/FRCHOTTeam67">
-	<img src="images/YouTube.jpg" class="auto-style1"></a></li>
-	</ul>
-	</div>
-	</div>
-	
-</div>
 
-</body>
 
-</html>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  
+	 
+</body></html>

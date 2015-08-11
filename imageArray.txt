@@ -1,0 +1,13 @@
+imagearray: [
+		["images/Fadeshow800/pic1a.jpg"," ","", "2010 World Championship Win"],
+		["images/Fadeshow800/pic2a.jpg"," ","", "2015 District Win"],
+		["images/Fadeshow800/pic3a.jpg"," ","", "67 is Everywhere"],
+		["images/Fadeshow800/pic4a.jpg"," ","", "2005 World Champions and Chairmans Award Winners"], 
+		["images/Fadeshow800/pic5a.jpg", "", "", "Promoting FIRST"],
+		["images/Fadeshow800/pic6a.jpg"," ","", "2009 World Champions"],
+		["images/Fadeshow800/pic7a.jpg"," ","", "2011 Pit Banner"],
+		["images/Fadeshow800/pic8a.jpg", "", "", "2011 Michigan Championship Win"], 
+		["images/Fadeshow800/pic9a.jpg", "", "", "Community Service"],
+		["images/Fadeshow800/pic10a.jpg", "", "", "Mentoring"],
+		["images/Fadeshow800/pic11a.jpg", "", "", "1997 Rookie All Star"],
+		["images/Fadeshow800/pic12a.jpg", "", "", "In Our Community"]//<--no trailing comma after very last image element!

@@ -14,50 +14,75 @@
  
     <title>Heroes Of Tomorrow</title>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/fadeslideshow.js">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- optional touchswipe file to enable swipping to navigate slideshow -->
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+
+<style>
+
+
+
+#fadeshow4 .gallerylayer img{ /* make all images inside fadeshow4 scale to 100% of slideshow width */
+width: 100%;
+height: auto;
+}
+
+</style>
+
+<script type="text/javascript" src="js/fadeslideshow.js">
 
 /***********************************************
 * Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
+* Please keep this notice intact
 * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
 ***********************************************/
 
-	</script>
-	
-	<script type="text/javascript">
+</script>
 
+<script type="text/javascript">
+/*
 var mygallery=new fadeSlideShow({
 	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
-	dimensions: [750, 400], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	dimensions: [250, 180], //width/height of gallery in pixels. Should reflect dimensions of largest image
 	imagearray: [
-		["images/fadeshow800/pic1a.jpg"," ","", "2010 World Championship Win"],
-		["images/fadeshow800/pic2a.jpg"," ","", "2013 District Win"],
-		["images/fadeshow800/pic3a.jpg"," ","", "67 is Everywhere"],
-		["images/fadeshow800/pic4a.jpg"," ","", "2005 World Champions and Chairmans Award Winners"], 
-		["images/fadeshow800/pic5a.jpg", "", "", "Promoting FIRST"],
-		["images/fadeshow800/pic6a.jpg"," ","", "2009 World Champions"],
-		["images/fadeshow800/pic7a.jpg"," ","", "2011 Pit Banner"],
-		["images/fadeshow800/pic8a.jpg", "", "", "2011 Michigan Championship Win"], 
-		["images/fadeshow800/pic9a.jpg", "", "", "Community Service"],
-		["images/fadeshow800/pic10a.jpg", "", "", "Mentoring"],
-		["images/fadeshow800/pic11a.jpg", "", "", "1997 Rookie All Star"],
-		["images/fadeshow800/pic12a.jpg", "", "", "In Our Community"]
-		
-		//<--no trailing comma after very last image element!
+		["http://www.dynamicdrive.com/dynamicindex4/pool.jpg"],
+		["http://www.dynamicdrive.com/dynamicindex4/cave.jpg"],
+		["http://www.dynamicdrive.com/dynamicindex4/fruits.jpg"],
+		["http://www.dynamicdrive.com/dynamicindex4/dog.jpg"] //<--no trailing comma after very last image element!
 	],
-	displaymode: {type:'auto', pause:2000, cycles:5, wraparound:false},
+	displaymode: {type:'auto', pause:2500, cycles:0, wraparound:false},
 	persist: false, //remember last viewed slide and recall within same session?
 	fadeduration: 500, //transition duration (milliseconds)
-	descreveal: "ondemand",
+	descreveal: "always",
+	togglerid: ""
+})
+*/
+
+var mygallery4=new fadeSlideShow({
+	wrapperid: "fadeshow4", //ID of blank DIV on page to house Slideshow
+	dimensions: ['70%', 450], //width/height of gallery in pixels. Should reflect dimensions of largest image
+imagearray: [
+		["images/Fadeshow800/pic2a.jpg"," ","", "2015 District Win"],
+		["images/Fadeshow800/pic1a.jpg"," ","", "2010 World Championship Win"],
+		["images/Fadeshow800/pic3a.jpg"," ","", "67 is Everywhere"],
+		["images/Fadeshow800/pic4a.jpg"," ","", "2005 World Champions and Chairmans Award Winners"], 
+		["images/Fadeshow800/pic5a.jpg", "", "", "Promoting FIRST"],
+		["images/Fadeshow800/pic6a.jpg"," ","", "2009 World Champions"],
+		["images/Fadeshow800/pic7a.jpg"," ","", "2011 Pit Banner"],
+		["images/Fadeshow800/pic8a.jpg", "", "", "2011 Michigan Championship Win"], 
+		["images/Fadeshow800/pic9a.jpg", "", "", "Community Service"],
+		["images/Fadeshow800/pic10a.jpg", "", "", "Mentoring"],
+		["images/Fadeshow800/pic11a.jpg", "", "", "1997 Rookie All Star"],
+		["images/Fadeshow800/pic12a.jpg", "", "", "In Our Community"]//<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:5000, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 500, //transition duration (milliseconds)
+	descreveal: "always",
 	togglerid: ""
 })
 
 </script>
-
-
-
-
 
 	<!-- #EndEditable -->
 
@@ -96,7 +121,7 @@ var mygallery=new fadeSlideShow({
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://www.hotteam67.org">Home</a>
+          <a class="navbar-brand" href="http://www.hotteam67.org">HOME</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -128,7 +153,7 @@ var mygallery=new fadeSlideShow({
               RESOURCES <span class="caret"></span></a>
               <ul class="dropdown-menu">
 						 <li><a href='Resources/Safety.html'><span>GM RULES AND SAFETY</span></a></li>
-						 <li><a href='http://www.hotteam67.org/programming'><span>PROGRAMMING</span></a></li>
+						 <li><a href='http://hal7df.github.io/pauls-tutorials'><span>PROGRAMMING</span></a></li>
 						 <li><a href="Resources/Assembly.html"><span>ASSEMBLY</span></a></li>
 						 <li><a href='Resources/machining.html'><span>MACHINING</span></a></li>
 						 <li><a href="About/67Percent.html"><span>ELECTRICAL</span></a></li>
@@ -151,9 +176,9 @@ var mygallery=new fadeSlideShow({
               <a href="http://getbootstrap.com/examples/navbar-fixed-top/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
               MEDIA <span class="caret"></span></a>
               <ul class="dropdown-menu">
-						 <li><a href="About/67Percent.html"><span>GET CONNECTED</span></a></li>
-						 <li><a href='https://plus.google.com/photos/107452000678789858518/albums?banner=pwa'><span>PHOTO ALBUM</span></a></li>
-						 <li><a href='http://www.youtube.com/user/FRCHOTTeam67'><span>VIDEO &amp; ANIMATION</span></a></li>
+						 <li><a href="Media/GetConnected.html"><span>GET CONNECTED</span></a></li>
+						 <li><a href="https://plus.google.com/photos/107452000678789858518/albums?banner=pwa"><span>PHOTO ALBUM</span></a></li>
+						 <li><a href='https://www.youtube.com/user/FRCHOTTeam67/videos'><span>VIDEO &amp; ANIMATION</span></a></li>
 						 <li><a href="About/67Percent.html"><span>IN THE PRESS</span></a></li>
               </ul>
             </li>
@@ -169,7 +194,7 @@ var mygallery=new fadeSlideShow({
               </ul>
             </li>
 
-            <li><a href="http://www.hotteam67.org/yearbook-2/">YEARBOOK</a></li>
+            <li><a href="http://www.hotteam67.org/category/hot-team-news/">YEARBOOK</a></li>
 
           </ul>
 
@@ -189,7 +214,7 @@ var mygallery=new fadeSlideShow({
 					 <a href="https://twitter.com/FRC67">
 					 <img src="images/twitter.png" ></a> 
 					 
-					 <a href="https://www.youtube.com/user/FRCHOTTeam67">
+					 <a href="https://www.youtube.com/user/FRCHOTTeam67/videos"> 
 					 <img src="images/YouTube.jpg"></a>
           </ul>
         </div><!--/.nav-collapse -->
@@ -198,19 +223,36 @@ var mygallery=new fadeSlideShow({
 
 
       <!-- #BeginEditable "content" -->
-<div id="subbanner">      
-<div id="fadeshow1" style="margin: 0 auto; z-index:0"></div>
+<!--<div id="fadeshow1"></div><br /> -->
+<div id="fadewrapper">
+<div id="fadeshow4"></div>
 </div>
 
+<div id="contentContainer">
 <div id="mainContent">
-<h1 class="banner">A FIRST Hall of Fame Team<img src="images/HOFWinner2005.jpg" style="float: right" ></h1><p>The Heroes of Tomorrow is a FIRST&copy; Robotics Team located in southeastern Michigan. Students from Huron Valley Schools three high schools 
+<h1 class="banner"> A FIRST Hall of Fame Team<img src="images/HOFWinner2005.jpg" style="float: right" ></h1><p>The Heroes of Tomorrow is a FIRST
+&copy; Robotics Team located in southeastern Michigan. Students from Huron Valley Schools three high schools 
 work with mentors with similar interests from the General Motors Proving Ground and Huron Valley Schools.  The HOT Team’s mission is to 
 inspire students’ interest in science and technology. The HOT Team earned the FIRST Chairman’s Award in 2005.  With this award, the HOT Team 
 became a member of the FIRST Hall of Fame.&nbsp; </p><br>
 </div>
 
+<div id="spotlight">
+<h1>Milford Memories</h1>
+	&nbsp;<p>
+	<img alt="spotlight" src="images/spotlight.jpg" width="299" style="float: left; margin-right:10px" height="213">On August 7-9, 2015, the HOT team participated in Milford Memories. The team set up in downtown<img alt="spotlight1" src="images/spotlight1.jpg" width="200" style="float: right"> 
+	Milford with lots of LEGOs and a variety of robots. Members of the team engaged with kids with several different activities. They built buildings and cars with 
+	LEGOs, made balloon animals with the help of the robot, C.A.S.E.Y, and shot balls with the 2012 and 2014 robots.&nbsp; 
+	The OVMS FTC bot was also on display.&nbsp; The kids had a lot of fun and enjoyed playing with all the different robots. See you at the next event! 
+	</p>
+	<p>-Melissa Brei</p>
+	<p>&nbsp; Read More On The....<a href="http://www.hotteam67.org/category/hot-team-news/">
+						 HOT Team Blog</a></p>
+	<p>&nbsp;</p>
+ </div>
 
-<div id="secContent">
+
+<!--<div id="secContent">
 <h1>
 JOIN THE HOT TEAM!
 </h1>
@@ -219,27 +261,35 @@ Be a part of this awesome Hall of Fame FIRST robotics team.  FIRST is more than 
 catalyst for inspiring innovation. The HOT Team designs, builds, wires, programs, documents, and markets 
  championship caliber robots. Along the way you’ll learn valuable technical, media, job, and leadership skills.
 </p>
-</div>
+</div>  -->
 
-
-<div id="secContent0">
-<h1>A Varsity Sport for the Mind</h1>
-<p>
-<a href="http://www.usfirst.org/aboutus/vision">
-<img src="images/FIRSTlogoR_color_rev_rgb.jpg"></a>
-FIRST® programs are designed to motivate young people to pursue education and career opportunities in science, 
-technology, engineering, and math, while building life skills, including self-confidence, communication, and leadership.
-</p>
 </div>
 
 <div id="rightside">
 	<h1>UPCOMING EVENTS </h1> 
-	<h2>June 26</h2> <h4>Highland Library Robotics Program</h4> 
-	<h2>June 29</h2><h4> Garden Gate Montessori Presentation</h4>
-	<h2>June 30</h2><h4> Pay to Participate Fee Due	</h4>
-	<br><br><br><br><br><br><br><br><br><br>
+	<h2>August 12-14</h2>
+	<h4> Sr Pictures @ Double Exposure</h4>
+	<h2>August 15</h2><h4> Huron River Clean-up	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </h4>
+	<h2>August 22</h2><h4> LEGOs at the Library	 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="About/Calendar.html">HOT Calendar</a></h4>
+	<p> &nbsp;</p>	
+</div>
+<div id="first">
+<h1>A Varsity Sport for the Mind</h1>
+<p>
+<a href="http://www.usfirst.org/aboutus/vision">
+<img src="images/FIRSTlogoR_color_rev_rgb.jpg" style="float: right" width="170"></a></p>
+	<p>
+	&nbsp;</p>
+	<p>
+	FIRST® programs are designed to motivate young people to pursue education and career opportunities in science, 
+technology, engineering, and math, while building life skills, including self-confidence, communication, and leadership.
+</p>
+	<p>
+	&nbsp;</p>
 </div>
 
+
+	
 
 	<!-- #EndEditable -->
       <div id="footer"> 
@@ -248,7 +298,9 @@ technology, engineering, and math, while building life skills, including self-co
 	<input type="submit" value="Search" /> <br><input type="radio" name="sitesearch" value="" /> The Web 
 	<input type="radio" name="sitesearch" value="hotteam67.org" checked />HOT Site</form>
 		</div>
-   	  <div id="quote">What did the fox say? <br><br></div>
+   	  <div id="quote">Team 67 Website Beta Test e-mail lori.gleason@gmail.com if you find any issues.  <br>Web Development Team: Chad Abou-Hamdan, 
+		  Juliana Jakubczak, Varun Kutirakulam, Brandon Mackey, and Riley 
+		  Morris,. <br></div>
       </div>
     
 

@@ -19,36 +19,81 @@ background-image:url('../images/background.png');
 	width: 95%;
 	margin: 0px auto;
 	padding: 1px 10px 10px 10px;
-	text-align:left;
+	text-align:center;
 	background-color:black;
 	margin-top:10px
 }
 #subbanner img {
-	width:100%; height:auto;
-	text:center;
+	width:75%; 
+	height:auto;
 	vertical-align: top;
 	margin-top: 3px;
 }
 
 /* =-----------------------Styles For Index --------------------------------- */
-#mainContent, #secContent, #secContent0, #secContent1, #secContent2, #secContent3 {
+#fadewrapper {
+		background:black; 
+		width:95%; 
+		margin:10px auto; 
+		text-align:center
+}
+
+#fadeshow4 {
+/*		margin-left:15%; */
+		margin:0px auto;
+		vertical-align:top; 
+		z-index:0
+}		
+
+#fadeshow4.gallerylayer img{ 
+width: 100%;
+height: auto;
+z-index:0;
+}
+		
+#contentContainer{
+	background-image:url('../images/background.png');
 	float:left;
-	width: 60%;
+	width: 65%;
+	min-width: 320px;
+	}
+	
+#secContent img, #secContent0 img, #secContent1 img, #secContent2 img{
+	height:100px; width:auto;
+	margin: 3px 0 0 10px;
+	float: left;
+	vertical-align:top;
+}
+
+#mainContent, #spotlight, #secContent, #secContent0, #secContent1, #secContent2, #secContent3 {
+	position: relative;
+	min-width: 320px;
 	margin: 10px 0px 0 30px;
 	padding: 10px 10px 10px 10px;
 	background-color:black;
 }
 
-#secContent img, #secContent0 img, #secContent1 img, #secContent2 img{
-	height:100px; width:auto;
-	margin: 3px 0 0 10px;
+#rightside{ 
+	width: 29%;
+	position:relative;
+	min-width: 250px;
+	vertical-align:top;
 	float: left;
-	vertical-align: top;
-}
-
-#rightside { 
-	width: 31%;
-	margin: 10px 65%; 
+	margin-top: 10px; 
+	margin-left:30px;
+	padding: 10px 10px 10px 10px;
+	background-color:black;
+	line-height:150%;
+}  
+#first{ 
+	width: 29%;
+	position:relative;
+	min-width: 250px;
+	vertical-align:top;
+	float: left;
+	margin-top: 10px; 
+	margin-left:30px;
+	margin-bottom:10px;
 	padding: 10px 10px 10px 10px;
 	background-color:black;
 	line-height:150%;
@@ -65,6 +110,7 @@ background-image:url('../images/background.png');
 	}
 /*------------------------Styles for All Pages --------------------------------------*/
 #footer	{
+	clear:both;
 	text-align:left;
 	clear: both;
 	width: 95%;
@@ -100,6 +146,7 @@ h1 {
 	font-size: 24px;
 	font-weight: bolder;
 	color:white;
+	text-align:left;
 	text-transform: uppercase;
 }
 
@@ -118,7 +165,7 @@ h3 {font-family:Arial, Helvetica, sans-serif;
 h4 {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 14px;
-	color:red;
+	color:white;
 }
 
 p {font-family:Arial, Helvetica, sans-serif;
@@ -236,13 +283,13 @@ Navigation Bar
 
 
 .navbar-default .navbar-brand{	/*Home button*/
-	font-size:x-large;
+	font-size:large;
      color: white;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	font-size:x-large;
+	font-size:large;
      color:red;
 }
 
@@ -288,3 +335,4 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .collapsed{
 	background-color:black; /*color of menu icon in collapsed menubar*/
 }
+
