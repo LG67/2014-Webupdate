@@ -10,7 +10,7 @@
 //June 22nd, 14' (v2.6.1): Enabled vertical swiping inside slideshow to scroll page 
 
 var fadeSlideShow_descpanel={
-	controls: [['x.png', 8, 8], ['restore.png', 14, 15.5], ['loading.gif', 54, 55]], //full URL and dimensions of close, restore, and loading images
+	controls: [['images/x.png', 8, 8], ['images/restore.png', 14, 14], ['images/loading.gif', 54, 55]], //full URL and dimensions of close, restore, and loading images
 	fontStyle: 'normal 11px Verdana', //font style for text descriptions
 	slidespeed: 200 //speed of description panel animation (in millisec)
 }
