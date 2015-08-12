@@ -31,18 +31,19 @@ background-image:url('../images/background.png');
 }
 
 /* =-----------------------Styles For Index --------------------------------- */
-#fadewrapper{
-	width:95%;
-	background-color:black;
-	margin: 0px auto;
+#fadewrapper {
+		background:black; 
+		width:95%; 
+		margin:10px auto; 
+		text-align:center
 }
 
-#fadeshow4{
-	min-height:320px;
-	margin: 0px auto;
-	padding: 1px 10px 10px 10px;
-	z-index:0;
-}
+#fadeshow4 {
+/*		margin-left:15%; */
+		margin:0px auto;
+		vertical-align:top; 
+		z-index:0
+}		
 
 #fadeshow4.gallerylayer img{ 
 width: 100%;
@@ -73,25 +74,25 @@ z-index:0;
 }
 
 #rightside{ 
-	width: 32%;
+	width: 29%;
 	position:relative;
 	min-width: 250px;
 	vertical-align:top;
 	float: left;
 	margin-top: 10px; 
-	margin-left:10px;
+	margin-left:30px;
 	padding: 10px 10px 10px 10px;
 	background-color:black;
 	line-height:150%;
 }  
 #first{ 
-	width: 32%;
+	width: 29%;
 	position:relative;
 	min-width: 250px;
 	vertical-align:top;
 	float: left;
 	margin-top: 10px; 
-	margin-left:10px;
+	margin-left:30px;
 	margin-bottom:10px;
 	padding: 10px 10px 10px 10px;
 	background-color:black;
@@ -334,3 +335,4 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .collapsed{
 	background-color:black; /*color of menu icon in collapsed menubar*/
 }
+
